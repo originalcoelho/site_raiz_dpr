@@ -1,0 +1,150 @@
+@charset"UTF-8";
+
+body{
+	font-family: tahoma, arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient(white, gray);
+}
+
+.principal{
+	width: 1600px;
+	margin: auto;
+}
+
+.header-top{
+	height: 100px;
+	background: #1F1334;
+	margin-top: 50px;
+	position: relative;
+}
+
+.logotipo{
+	width: 70px;
+	height: 90px;
+	margin: 5px 0 0 100px;
+}
+
+.header-nav{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+.header-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.header-nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	transition: color 0.5s liner;
+}
+
+.header-nav a:hover{
+	color: gray;
+}
+
+/*Estilo do texto central*/
+
+.portfolio{
+	padding: 50px 100px;
+	text-align: center;
+}
+
+.portfolio h1{
+	font-size: 50px;
+	color: black;
+}
+
+.portfolio p{
+	font-size: 30px;
+	line-height: 2;
+	color: black;
+}
+
+/*Estilo dos cards*/
+
+.gallery{
+	color: white;
+	padding: 0 100px 50px 100px;
+	overflow: auto;
+}
+
+.gallery-card{
+	width: 32%;
+	float: left;
+	text-align: center;
+}
+
+.gallery-title{
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.gallery-text{
+	font-size: 25px;
+	margin: 0;
+	padding: 0px;
+}
+
+.about{
+	background-color: #1F1334;
+	padding: 50px;
+	color: white;
+	box-shadow: 10px 10px 8px gray;
+}
+
+.about h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 10px 10px 5px gray;
+}
+
+.about p{
+	line-height: 1.5;
+	width: 60%;
+	text-align: justify;
+}
+
+#contact{
+	margin: 50px 0;
+}
+
+#contact address{
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 5px 5px 3px black;
+}
+
+.maps{
+	text-align: center;
+}
+
+.rodape{
+	background: #1F1334;
+	padding: 5px;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+}

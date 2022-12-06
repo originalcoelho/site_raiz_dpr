@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Envio de Planilhas</title>
+	<meta name="author" content="Rodrigo Coelho">
+	<meta name="description" content="envio de informações">
+	<meta name="keywords" content="presídios, presos, penitenciárias">
+	<link rel="stylesheet" type="text/css"  href="css/reset.css"/>	
+	<link rel="stylesheet" type="text/css"  href="css/planilhas.css"/>
+	<link rel="icon" type="image/x-icon" href="imagens/logooficial.png">
+	<script src="https://kit.fontawesome.com/6b8c61ee9a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<a href="http://www.susepe.rs.gov.br/capa.php" target="_blank"><img id="logo" src="imagens/logooficial.png" alt="Logotipo da Polícia Penal"></a>
+
+		<nav id="menu">
+		<h1>Menu Principal</h1>
+		<ul>
+			<li><a href="index_dpr.html">Início</a></li>
+			<li><a href="planilhas.html">Planilhas</a></li>
+			<li><a href="recursos.html">Recursos Humanos</a></li>
+			<li><a href="gir.html">Gir 1</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+		</nav>
+	</header>
+
+	<h2>Formulário para solicitação a diárias</h2>
+	
+<form action="http://google.com/search" method="GET" class="formul">
+	<fieldset>
+
+		<legend>Dados por servidor da unidade</legend>	
+
+			<label for="nome">Nome Completo</label>
+			<input type="text" name="q" id="nome" required>
+
+			<label for="data">Data da viajem</label>
+			<input type="date" min="2022-01-01" max="2023-01-01" name="q" id="data" required>
+
+			<label>Motivo</label>
+			<select name="motivo">
+				<option value="0">Selecione</option>
+				<option value="138">Transferência</option>
+				<option value="139">Atendimento Médico/Exame</option>
+				<option value="137">Audiência</option>
+				<option value="12">Reunião</option>
+				<option value="68">Retirar Material/Viatura</option>
+				<option value="12">Atendimento Técnico</option>
+			</select>
+
+			<label for="nome">IF</label>
+			<input type="number" min="0" max="5000" id="id" required>
+
+			<label>Vínculo</label>
+			<select name="vinculo">
+				<option value="0">Selecione</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+			</select>
+
+			<label>Lotação</label>
+			<select name="lotacao">
+				<option value="0">Selecione</option>
+				<option value="024">Canoas</option>
+				<option value="087">Osório</option>
+				<option value="078">Montenegro</option>
+				<option value="132">Sapucaia do Sul</option>
+				<option value="144">Torres</option>
+				<option value="145">Taquara</option>
+				<option value="133">São Leopoldo</option>
+				<option value="136">Novo Hamburgo</option>
+			</select>
+
+			<label>Destino</label>
+			<select name="lotacao">
+				<option value="0">Outro</option>
+				<option value="024">Canoas</option>
+				<option value="087">Osório</option>
+				<option value="078">Montenegro</option>
+				<option value="132">Sapucaia do Sul</option>
+				<option value="144">Torres</option>
+				<option value="145">Taquara</option>
+				<option value="133">São Leopoldo</option>
+				<option value="136">Novo Hamburgo</option>
+				<option value="139">Charqueadas</option>
+				<option value="140">Arroio dos Ratos</option>
+			</select>
+
+			<label>Meia Diária</label>
+			<input type="radio" name="diaria" value="1" checked>
+			<label>Uma Diária</label>
+			<input type="radio" name="diaria" value="2">
+
+			<legend>Mensagens</legend>
+				<textarea style="resize: none" name="msg" cols="100" rows="10">Digite sua mensagem sobre diárias aqui se algo deu errado em seu lançamento...</textarea>
+				<textarea style="resize: none" name="msg" cols="100" rows="10" disabled>Após ralizar todos os lançamentos da unidade, vc deve anexar um arquivo único em PDF contendo as solicitações e ademais comprovantes.</textarea>
+			<input type="submit" value="OK" class="btn">
+
+			<input type="reset" value="Limpar Tudo">
+	</fieldset>		
+</form>
+		
+	<footer>
+		<address>
+			<p><span>Endereço: </span>Rua Cândido Machado, 276 Centro de Canoas/RS</p>
+			<p><span>E-mail: </span>1dpr@susepe.rs.gov.br</p>
+		</address>
+	</footer>
+	
+</body>
+</html>
